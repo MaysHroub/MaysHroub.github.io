@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url(/fonts/Lato-Light.ttf);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+#title {
+    color: #252525;
+    max-width: 50%;
+    font-family: Lato;
+    font-size: 2rem;
+    word-spacing: .6rem;
+    letter-spacing: .2rem;
+}
+
+#text {
+    color: #252525;
+    max-width: 40%;
+    font-family: Lato-Light;
+    font-size: 1em;
+    font-weight: bold;
+    word-spacing: .3rem;
+    letter-spacing: .05rem;
+}
+
+button {
+    background-color: #252525;
+    color: white;
+    border-radius: 12px;
+    padding: .5em 2em .5em 2em;
+    font-family: Lato-Light;
+    font-weight: bold;
+}
+
+#img-container img {
+    max-width: 100%;
+}

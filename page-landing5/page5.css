@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url(/fonts/Lato-Light.ttf);
+}
+
+body {
+    margin: 2em;
+}
+
+h1 {
+    color: #252525;
+    font-family: Lato;
+    font-size: 4rem;
+    max-width: 50%;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    padding: 1.5em;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+p {
+    color: #252525;
+    font-family: Lato-Light;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+h2 {
+    color: hsla(0, 0%, 15%, 0.543);
+    font-family: Lato;
+    font-size: 2rem;
+    max-width: 50%;
+}
+
+@keyframes slide {
+    from{transform: translateX(-100%);}
+}
