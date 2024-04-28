@@ -1,0 +1,173 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.platypi {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("/images/Right Column.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 60vw;
+    color: hsl(0, 0%, 16%);
+    font-family: Inter;
+    background-color: #F9F9F9;
+}
+
+.spacer {
+    height: 10vw;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 2.5em 2.5em 2.5em;
+}
+
+#nav-bar h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#nav-bar #inner-bar {
+    display: flex;
+}
+
+#nav-bar #inner-bar h4 {
+    margin: 1em;
+    font-weight: inherit;
+}
+
+#nav-bar #inner-bar #green {
+    color: hsl(141, 74%, 41%);
+}
+
+#left-content {
+    padding-left: 3em;
+    margin-top: 7em;
+    max-width: 50vw;
+    /* color: hsl(0, 0%, 10%); */
+    margin-bottom: 15em;
+}
+
+#left-content h1 {
+    font-family: PlatyPi;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+#left-content p {
+    font-size: 1.5rem;
+    color: hsla(0, 0%, 10%, 0.781);
+}
+
+#left-content button {
+    background-color: hsl(160, 78%, 45%);
+    color: white;
+    font-size: 1rem;
+    padding: 1em;
+    border: none;
+    border-radius: .6em;
+}
+
+.second-sec #up {
+    text-align: center;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-sec #up h1 {
+    font-family: PlatyPi;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.second-sec #up p {
+    font-size: .9rem;
+}
+
+.second-sec #bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.second-sec #bottom .box {
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    padding: 2em;
+    margin: .5em;
+    max-width: 30vw;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.087);
+}
+
+.second-sec #bottom .box p{
+    font-size: .9rem;
+}
+
+.sec-3 {
+    padding: 3em;
+}
+
+.sec-3 .side {
+    width: 45vw;
+}
+
+.sec-3 #left h1{
+    font-family: PlatyPi;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sec-3 #right #card {
+    border: solid 3px hsl(0, 0%, 16%);
+    border-radius: 1em;
+    box-shadow: 1em 1em hsl(160, 45%, 42%);
+    padding: 1em 0 1em 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 3em 0 4em;
+}
+
+.sec-3 #right #card .elem {
+    display: flex;
+}
+
+.sec-3 #right #card .elem img {
+    margin-right: 2em;
+}
+
+.sec-3 #right #card .elem h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.sec-3 #right #card .elem p {
+    color: hsla(0, 0%, 16%, 0.689);
+    font-family: Inter;
+    margin-top: .5em;
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
